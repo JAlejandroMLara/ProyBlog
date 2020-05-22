@@ -137,6 +137,15 @@
   margin-left: -120px;
 }
 
+.row-blog3 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
 .boton-img {
   background-image: url("../img/peligroso.gif");
   background-repeat:no-repeat;
@@ -153,6 +162,14 @@
   border-left: 1px solid black;
 }
 
+.img-tarjeta {
+  padding-top: 30%;
+}
+
+.referencia {
+  text-align: right;
+  padding-right: 16%;
+}
 
 /*----------------------------------------------------------------*/
 

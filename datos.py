@@ -17,7 +17,11 @@ def url_presentacion():
 
 @app.route("/mi-vida-en-lol")
 def url_exp_lol():
-	return render_template("exp_lol.html",info = "Alejandro", info2 = "student", info3 = "player")
+	return render_template("exp_lol.html",info = "Alejandro", info2 = "jugador toxico", info3 = "jg, mid y top")
+
+@app.route("/mi-vida-en-fortnite")
+def url_exp_fort():
+	return render_template("exp_fort.html",info = "Alejandro", info2 = "manco", info3 = "noob")
 
 if __name__ == "__main__":
 	app.run(debug=True)
