@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/bootstrap.css">
+
+    <title>My game life | Acerca de mi</title>
+    <link rel="shortcut icon" href="../static/img/favicon.ico">
+
+  </head>
+
+  <body class="bgc">
+
+  	<div class="jumbotron-blog jumbotron-fluid">
+  		<div class="container">
+  			<h1 class="display-4 text-center">Acerca de mi</h1>
+  			<p class="lead">
+  				<div class="contenedor">
+  					<p class="display-blog p-blog">I'm</p>
+	  				<ul class="ul-blog">
+	  					<li class="display-blog">{{ info }}</li>
+	  					<li class="display-blog">{{ info2 }}</li>
+	  					<li class="display-blog">{{ info3 }}</li>
+	  				</ul>
+  				</div>
+  			</p>
+  		</div>
+  	</div>
+
+  	<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+  		<nav class="navbar navbar-expand-lg navbar-light">
+  			<a class="navbar-brand" href="/">Inicio</a>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  				<span class="navbar-toggler-icon"></span>
+  			</button>
+  			<div class="collapse navbar-collapse" id="navbarNav">
+  				<ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/entradas">Entradas</a>
+            </li>
+  					<li class="nav-item active">
+  						<a class="nav-link" href="/presentacion">Acerca de mi</a>
+  					</li>
+  				</ul>
+  			</div>
+  		</nav>
+  	</nav><br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-8 borde-pkm">Mi nombre es Joel Alejandro Medina Lara y tengo 22 años. Durante casi toda mi vida he estado en contacto con los videojuegos. Mi vida ha estado llena de ellos, desde pequeño con la computadora familiar y el acceso a internet donde ingresabamos a paginas de juegos flash, pasando por los ciber cafés con consolas xbox (donde gastaba mis 5 pesos que mi mamá me daba para mi desayuno en la primaria), hasta tener mi primera consola de videojuegos entre los 16 y 17 años.<br><br>
+        Siempre me han gustado muchos los videojuegos, sus historas, diseños, narrativas, la manera en como los crean y podria mencionar mas aspectos que hacen que los aprecie más y más. Tambien me gusta mucho ver a los demas jugar, el sentimiento de frustracion al no poder pasar algun nivel, el de conseguir un logro o lograr vencer a algun enemigo, la emocion por ver los trailers de nuevos titulos.<br><br>
+        <div align="center"><img src="../static/img/{{ img }}" width="200" height="200"></div>
+        <br>Mi pasion por este medio de entretenimiento seguira vivo hasta que no pueda mover un solo dedo. Mis amigos, mi familia, la comunidad siempre estaran presentes para disfrutar una historia nueva, para rescatar a alguna princesa en apuros, para vencer a algun enemigo de talla mundial, para saltar de plataforma en plataforma.<br><br>
+        Este blog lo inicio como parte de una practica escolar, pero me encantaria continuarlo como parte de mi vida videojuegalitica o como se diga jajaja.<br><br>
+        Asi que es momento de presionar START a este proyecto, ¿Me acompañas?
+        </div>
+        <div class="col-4">
+
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+            <div class="card-body">
+              <h4><span class="badge badge-info">Cuentas activas</span></h4>
+              <ul class="list-group list-group-flush">
+
+                <li class="list-group-item">
+                  <div class="media">
+                    <img src="../static/img/{{ img2 }}" class="align-self-center mr-3" width="45" height="45">
+                    <div class="media-body">
+                      <h5 class="mt-0">{{ cuenta }}</h5>
+                      {{ desc }}
+                    </div>
+                  </div>
+                </li>
+
+                <li class="list-group-item">
+                  <div class="media">
+                    <img src="../static/img/{{ img3 }}" class="align-self-center mr-3" width="45" height="45">
+                    <div class="media-body">
+                      <h5 class="mt-0">{{ cuenta2 }}</h5>
+                      {{ desc2 }}
+                    </div>
+                  </div>
+                </li>
+
+                <li class="list-group-item">
+                  <div class="media">
+                    <img src="../static/img/{{ img4 }}" class="align-self-center mr-3" width="45" height="45">
+                    <div class="media-body">
+                      <h5 class="mt-0">{{ cuenta3 }}</h5>
+                      {{ desc3 }}
+                    </div>
+                  </div>
+                </li>
+
+                <li class="list-group-item">
+                  <div class="media">
+                    <img src="../static/img/{{ img5 }}" class="align-self-center mr-3" width="45" height="45">
+                    <div class="media-body">
+                      <h5 class="mt-0">{{ cuenta4 }}</h5>
+                      {{ desc4 }}
+                    </div>
+                  </div>
+                </li>
+
+                <li class="list-group-item">
+                  <div class="media">
+                    <img src="../static/img/{{ img6 }}" class="align-self-center mr-3" width="45" height="45">
+                    <div class="media-body">
+                      <h5 class="mt-0">{{ cuenta5 }}</h5>
+                      {{ desc5 }}
+                    </div>
+                  </div>
+                </li>
+
+                <li class="list-group-item">
+                  <div class="media">
+                    <img src="../static/img/{{ img7 }}" class="align-self-center mr-3" width="45" height="45">
+                    <div class="media-body">
+                      <h5 class="mt-0">{{ cuenta6 }}</h5>
+                      {{ desc6 }}
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><br>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../static/jquery/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="../static/jquery/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+  </body>
+
+<footer class="borde-pkm">
+  
+
+</footer>
+
+</html>
